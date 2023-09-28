@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid practice</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="display: grid;
+        grid-template-columns: 100px 100px 200px;">
+            <div style="background-color: lightblue;">div 1</div>
+            <div style="background-color: antiquewhite;">div 2<p>type some thing</p></div>
+        </div>
+
+        <div style="display: grid;
+        margin-top: 10px;
+        margin-right: 5px;
+        grid-template-columns: 100px 100px 200px;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: antiquewhite;">200px</div>
+            <div style="background-color: fuchsia;">300px<p></p></div>
+            <div style="background-color: darkolivegreen;">100px</div>
+        </div>
+
+        <div style="display: grid;
+        margin-top: 10px;
+        margin-right: 5px;
+        grid-template-columns: 100px 1fr;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: antiquewhite;">1fr</div>
+        </div>
+
+        <div style="display: grid;
+        margin-top: 10px;
+        margin-right: 5px;
+        grid-template-rows: 100px 1fr 2fr;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: antiquewhite;">1fr</div>
+            <div style="background-color: darkolivegreen;">2fr</div>
+        </div>
+
+        <div style="display: grid;
+        margin-top: 30px;
+        margin-right: 5px;
+        height: 200px;
+        column-gap: 20px;
+        row-gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;">
+            <div style="background-color: lightblue;">1fr</div>
+            <div style="background-color: rgb(240, 88, 240);">1fr</div>
+            <div style="background-color: lightblue;">1fr</div>
+            <div style="background-color: rgb(240, 88, 240);">1fr</div>
+            <div style="background-color: lightblue;">1fr</div>
+            <div style="background-color: rgb(240, 88, 240);">1fr</div>
+        </div>
+    </body>
+</html>
